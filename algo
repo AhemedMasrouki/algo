@@ -1,0 +1,30 @@
+.ALGORITHM algorithm_name
+VAR
+    ch:STRING
+    Word:INTEGER:=1
+    V:INTEGER:=0
+    
+BEGIN
+
+Read (ch)
+
+FOR i FROM 0 TO STEP ch.lenght -1
+STEP 1 
+IF(ch[i] == " ") THEN
+
+   Word: Word + 1
+
+
+END_IF
+    
+    IF(ch [i]== "a" or "e" or "i" or "o" or "u"or "y") THEN
+    v: v+1
+    END_IF
+END_IF
+END_FOR
+    
+END_FOR
+    Write (ch.lenght)
+    Write (Word)
+    Write (v)         
+END
